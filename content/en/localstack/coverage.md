@@ -4839,6 +4839,10 @@ description: >
   </thead>
   <tbody>
     <tr>
+      <td>AddSourceIdentifierToSubscription (Pro) </td>
+       <td style="text-align:right">✅</td>
+    </tr>
+    <tr>
       <td>AddTagsToResource (Pro) </td>
        <td style="text-align:right">✅</td>
     </tr>
@@ -4985,10 +4989,6 @@ description: >
     </tr>
   </tbody>
   <tbody class="collapse docdb-notimplemented">     <tr>
-      <td>AddSourceIdentifierToSubscription</td>
-       <td style="text-align:right">-</td>
-    </tr>
-    <tr>
       <td>ApplyPendingMaintenanceAction</td>
        <td style="text-align:right">-</td>
     </tr>
@@ -5362,14 +5362,6 @@ description: >
     </tr>
     <tr>
       <td>AllocateAddress <a href="#misc" title="covered by our integration test suite">✨</a></td>
-       <td style="text-align:right">✅</td>
-    </tr>
-    <tr>
-      <td>AllocateHosts (Pro) </td>
-       <td style="text-align:right">✅</td>
-    </tr>
-    <tr>
-      <td>AllocateIpamPoolCidr (Pro) </td>
        <td style="text-align:right">✅</td>
     </tr>
     <tr>
@@ -6275,6 +6267,14 @@ description: >
     </tr>
   </tbody>
   <tbody class="collapse ec2-notimplemented">     <tr>
+      <td>AllocateHosts</td>
+       <td style="text-align:right">-</td>
+    </tr>
+    <tr>
+      <td>AllocateIpamPoolCidr</td>
+       <td style="text-align:right">-</td>
+    </tr>
+    <tr>
       <td>ApplySecurityGroupsToClientVpnTargetNetwork</td>
        <td style="text-align:right">-</td>
     </tr>
@@ -8513,10 +8513,6 @@ description: >
        <td style="text-align:right">✅</td>
     </tr>
     <tr>
-      <td>CreateApplicationVersion (Pro)  <a href="#misc" title="covered by our integration test suite">✨</a></td>
-       <td style="text-align:right">✅</td>
-    </tr>
-    <tr>
       <td>CreateEnvironment (Pro)  <a href="#misc" title="covered by our integration test suite">✨</a></td>
        <td style="text-align:right">✅</td>
     </tr>
@@ -8580,6 +8576,10 @@ description: >
     </tr>
     <tr>
       <td>ComposeEnvironments</td>
+       <td style="text-align:right">-</td>
+    </tr>
+    <tr>
+      <td>CreateApplicationVersion</td>
        <td style="text-align:right">-</td>
     </tr>
     <tr>
@@ -13501,6 +13501,10 @@ description: >
        <td style="text-align:right">✅</td>
     </tr>
     <tr>
+      <td>ConnectCustomKeyStore (Pro) </td>
+       <td style="text-align:right">✅</td>
+    </tr>
+    <tr>
       <td>CreateAlias <a href="#misc" title="covered by our integration test suite">✨</a></td>
        <td style="text-align:right">✅</td>
     </tr>
@@ -13659,10 +13663,6 @@ description: >
     </tr>
   </tbody>
   <tbody class="collapse kms-notimplemented">     <tr>
-      <td>ConnectCustomKeyStore</td>
-       <td style="text-align:right">-</td>
-    </tr>
-    <tr>
       <td>CreateCustomKeyStore</td>
        <td style="text-align:right">-</td>
     </tr>
@@ -17845,6 +17845,10 @@ description: >
        <td style="text-align:right">✅</td>
     </tr>
     <tr>
+      <td>PutJobTagging</td>
+       <td style="text-align:right">✅</td>
+    </tr>
+    <tr>
       <td>PutPublicAccessBlock <a href="#misc" title="covered by our integration test suite">✨</a></td>
        <td style="text-align:right">✅</td>
     </tr>
@@ -18016,10 +18020,6 @@ description: >
     </tr>
     <tr>
       <td>PutBucketVersioning</td>
-       <td style="text-align:right">-</td>
-    </tr>
-    <tr>
-      <td>PutJobTagging</td>
        <td style="text-align:right">-</td>
     </tr>
     <tr>
